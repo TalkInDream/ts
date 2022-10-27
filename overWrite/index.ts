@@ -1,1 +1,2 @@
-222222
+let a:number = 10;
+console.log('a',a)
