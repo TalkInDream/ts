@@ -1,8 +1,17 @@
 {
   "compilerOptions": {                     
     "target": "es5",                               
-    "module": "commonjs",                                           
-  }
+    "module": "commonjs",  
+    "strictNullChecks": true,
+    "lib": ["DOM","ESNext"],  
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "strictFunctionTypes": true                                 
+  },
+  "include": [
+    "./**/*"
+  ]
 }
 
 
