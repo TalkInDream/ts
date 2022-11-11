@@ -71,6 +71,7 @@ namespace Form2 {
 }
 
 
+//需求说明：https://github.com/LeetCode-OpenSource/hire/blob/f23ff689b2ec4363506f14d3db953c6cf0c8510c/typescript_zh.md
 interface Action<T> {
     payload?: T,
     type: string
